@@ -1,27 +1,27 @@
 public class Age{
-public static byte ageLimit(double age)
-{
-System.out.println("Invoked age:" +age);
-if(age>=1&& age<=5){
-System.out.println("Given input is a kid");
-return 1;
-}
-if(age>=6&& age<=12){
-System.out.println("Given input is a child");
-return 2;
-}
-if(age>=13&& age<=19){
-System.out.println("Given input is a teen");
-return 3;
-}
-if(age>=20&& age<=32){
-System.out.println("Given input is a Adult");
-return 4;
-}
-if(age>=33&& age<=85){
-System.out.println("Given input is a old");
-return 5;
-}
-return -1;
-}
+	public static String ageDefine(int age){
+		System.out.println("AgeDefine method ");
+		System.out.println("age"+age);
+		if(age>1 && age<=5){
+			System.out.println("Kid");
+			return "Kid";
+		}
+		if(age>5 && age<=12){
+			System.out.println("Child");
+			return "Child";
+		}
+		if(age>12 && age<=19){
+			System.out.println("Teen");
+			return "Teen";
+		}
+		if(age>19 && age<=50){
+			System.out.println("Adult");
+			return "Adult";
+		}
+		if(age>50 && age<100){
+			System.out.println("Old");
+			return "old";
+		}
+		return "not found";
+	}
 }
