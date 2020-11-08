@@ -1,0 +1,3 @@
+public enum Institute{
+		XWORKZ,ABC,JSPIDERS,PENTAGON,SOCKEXPERTS
+		}
